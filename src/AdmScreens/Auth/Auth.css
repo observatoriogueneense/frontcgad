@@ -1,0 +1,53 @@
+.fullLoginMenu{
+    width: 100%;
+    background-color: #dddddd8e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.contentLogoutMenu{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+}
+.logoutAdm{
+    margin: 0px 20px;
+    padding: 1px 15px;
+    background-color: var(--vermelho);
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.logoutAlterarAdm{
+    padding: 1px 15px;
+    background-color: var(--amarelo);
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.logoutAdm:hover{
+    font-weight: 500;
+    color: #fff;
+    transition: 0.3s;
+}
+.logoutAlterarAdm:hover{
+    font-weight: 500;
+    color: #fff;
+    transition: 0.3s;
+}

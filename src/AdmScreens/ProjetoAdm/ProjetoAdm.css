@@ -1,0 +1,73 @@
+.newFullContentForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    margin: 0px;
+}
+.oitentaofFull{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0px;
+}
+.textFastIn{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    font-size: 1.2rem;
+}
+.divNewLateralButt{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0px;
+}
+.CadastrarNovoTema{
+    width: 100%;
+    height: 40px;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--verdeC);
+}
+.CadastrarNovoTemaRed{
+    width: 100%;
+    height: 40px;
+    border: 1px dashed red;
+    background-color: rgba(240, 88, 88, 0.525);
+    color: red;
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.editDeletCardIcons{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.delred{
+    font-size: 1.5rem;
+    color: var(--vermelho);
+}
+.delamarelo{
+    font-size: 1.5rem;
+    color: var(--amarelo);
+}
+
+.newMar{
+    margin: 20px 0px;
+    background-color: #ddd;
+}

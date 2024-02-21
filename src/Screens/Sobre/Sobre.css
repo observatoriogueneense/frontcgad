@@ -1,0 +1,369 @@
+.Sobre{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.svgContent{
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../../../public/svg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorMembroBackground{
+    background-color: #f6f6f6;
+}
+.widthSvgContent{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textDescOGADSobre{
+    color: #fff;
+    margin: 0px;
+    font-size: 1.4rem;
+}
+.pSvgContent{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.borderContent{
+    display: flex;
+    align-items: flex-start;
+    width: 170px;
+    height: 110px;
+    border: none;
+    color: #fff;
+    margin: 5px;
+}
+.numberBorder{
+    font-size: 1.3rem;
+    color: var(--amarelo);
+    margin-left: -50px;
+    margin-top: -15px;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 7px 2px var(--amareloC);
+}
+.borderContentItem{
+    width: 140px;
+    height: 80px;
+    border: none;
+    border: 3px solid var(--amarelo);
+    color: #fff;
+    background-color: var(--verdeE);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px 2px var(--amareloC);
+    text-align: center;
+}
+.nossaSobreFull{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    background-color: #dddddd75;
+    margin-top: 100px;
+}
+.oitentaNossa{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.TitleNossa{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3rem;
+    color: var(--verdeE);
+}
+.paragrafoNossa{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.membros{
+    width: 100%;
+    padding: 45px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oitentaMembros{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.headerMembros{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd75;
+    box-shadow: 1px 1px 7px 1px #999;
+}
+.TitleMembros{
+    font-size: 2rem;
+    color: var(--verdeE);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    text-align: center;
+    
+}
+.pMembros{
+    font-size: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    text-align: center;
+}
+.itemMembros{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.cardMembro{
+    width: 300px;
+    padding: 20px 5px;
+    background-color: #dddddd75;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.imgCardMembro{
+    width: 200px;
+    height: 200px;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+.imageCardMembro{
+    width: 100%;
+    border-radius: 50%;
+}
+.NameCArdMembro{
+    font-size: 1.5rem;
+    color: var(--verdeE);
+    padding: 10px 0px;
+}
+.descCArdMembro{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.ButtonCArdMembro{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 10px 0px;
+}
+.cardItemButtonMembro{
+    width: 110px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: var(--verdeE);
+    box-shadow: 1px 1px 7px 2px var(--verde);
+}
+
+/* card membro 2 */
+.itemMembros2{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    
+}
+.cardMembro2{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #dddddd75;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.imageCardMembro2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.imgCardMembro2{
+    width: 95%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.NameAndCardgoCArdMembro{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.paddingIconMembro{
+    padding: 0px 5px;
+}
+.nomeMembro2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--verdeE);
+    text-decoration: none;
+    font-style: normal;
+}
+.CargoDoMembro2{
+    font-weight: 400;
+    font-style: italic;
+}
+@media (max-width: 1350px){
+    .pSvgContent{
+        width: 55%;
+    }
+}
+@media (max-width: 1230px){
+    .pSvgContent{
+        width: 50%;
+        height: 300px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .cardMembro2{
+        width: 46%;
+    }
+    .textDescOGADSobre{
+        font-size: 1.4rem;
+        color: #666;
+    }
+    .textBack{
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 1230px){
+    .oitentaMembros{
+        width: 80%;
+    }
+}
+@media (max-width: 960px){
+    .oitentaMembros{
+        width: 90%;
+    }
+    .widthSvgContent{
+        width: 90%;
+    }
+    .nossaSobreFull{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 848px){
+    .oitentaMembros{
+        width: 95%;
+    }
+    .widthSvgContent{
+        width: 95%;
+    }
+    .nossaSobreFull{
+        margin-top: 0px;
+    }
+    .DesativarborderContent{
+        display: none;
+    }
+    .pSvgContent{
+        width: 50%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 800px){
+    .oitentaMembros{
+        width: 70%;
+    }
+    .itemMembros2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardMembro2{
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+    }
+    .textDescOGADSobre{
+        color: #fff;
+    }
+}
+@media (max-width: 520px){
+    .textDescOGADSobre{
+        font-size: 1rem;
+    }
+    .oitentaMembros{
+        width: 90%;
+    }
+    .oitentaNossa{
+        width: 80%;
+    }
+}
+@media (max-width: 450px){
+    .TitleNossa{
+        font-size: 2rem;
+    }
+    .borderContent{
+        display: none;
+    }
+}

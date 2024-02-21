@@ -1,0 +1,23 @@
+.editDelet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    width: 100%;
+}
+.icBalde{
+    font-size: 1.6rem;
+    color: var(--vermelho);
+    cursor: pointer;
+}
+.icLap{
+    font-size: 1.6rem;
+    color: var(--amarelo);
+    cursor: pointer;
+}
+.newAlingCardPar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

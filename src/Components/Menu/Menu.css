@@ -1,0 +1,192 @@
+.Menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.fullMenu{
+    width: 80%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoClass{
+    height: 70px;
+    margin-left: 0px;
+}
+.logoImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 33%;
+}
+.textTitle{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.title{
+    font-size: 1.1rem;
+    margin: 0px;
+    font-weight: 500;
+    color: var(--verdeE);
+    /* font-family: 'Satisfy'; */
+}
+.menuEscolha{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.itemMenu{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--verde);
+    padding: 7px;
+    cursor: pointer;
+}
+.itemMenu:hover{
+    background-color: var(--verdeE);
+    color: var(--verdeC);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+.selectButton{
+    cursor: pointer;
+    background-color: var(--verdeE);
+    color: var(--verdeC);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+@media (max-width: 1393px){
+    .title{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 1106px){
+    .title{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 1070px){
+    .title{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 1070px){
+    .title{
+        font-size: 0.6rem;
+    }
+}
+@media (max-width: 1007px){
+    .logoClass{
+        height: 70px;
+    }
+    .menuEscolha{
+        width: 65%;
+    }
+    .selectButton{
+        height: 50px;
+        width: 50px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .itemMenu{
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--verde);
+        padding: 5px;
+        cursor: pointer;
+    }
+    .itemMenu:hover{
+        height: 50px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 914px){
+    .title{
+        font-size: 0.5rem;
+    }
+}
+@media (max-width: 880px){
+    .textTitle{
+        display: none;
+    }
+}
+@media (max-width: 580px){
+    .fullMenu{
+        width: 93%;
+    }
+}
+@media (max-width: 500px){
+    .itemMenu{
+        font-size: 0.9rem;
+        height: 30px;
+    }
+    .itemMenu:hover{
+        height: 30px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .selectButton{
+        font-size: 0.9rem;
+        height: 30px;
+        width: 40px;
+    }
+    .menuEscolha{
+        width: 70%;
+    }
+}
+@media (max-width: 450px){
+    .itemMenu{
+        font-size: 0.7rem;
+        height: 30px;
+        width: 30px;
+    }
+    .itemMenu:hover{
+        height: 30px;
+        width: 30px;
+        padding: 3px;
+        border-radius: 5px;
+    }
+    .selectButton{
+        font-size: 0.7rem;
+        width: 30px;
+        height: 30px;
+        width: 40px;
+        margin: 0px;
+    }
+    .menuEscolha{
+        width: 80%;
+    }
+    .logoClass{
+        height: 60px;
+    }
+}
+@media (max-width: 650px){
+    .Menu{
+        display: none;
+    }
+}

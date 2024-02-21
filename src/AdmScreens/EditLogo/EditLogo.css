@@ -1,0 +1,46 @@
+.contentAlterarLogo{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.cardLogoUpdate{
+    width: 380px;
+    padding: 20px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.inpLogoUp{
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: none;
+}
+.textCadastrarOuEdit{
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.NewBuutLogo{
+    height: 45px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: var(--verde);
+    border: none;
+    cursor: pointer;
+}
+.inpLogoUpInp{
+    width: 90%;
+}
+.iiLogo{
+    max-width: 90%;
+}

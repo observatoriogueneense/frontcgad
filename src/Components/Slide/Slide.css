@@ -1,0 +1,227 @@
+.Slide{
+    width: 100%;margin: 0px;
+    padding: 0px;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+.slideFull{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+}
+
+
+.imgContentVida{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* ===================slider ====================*/
+
+.slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.navigation-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid var(--verde);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: var(--verde);
+}
+#radio1:aria-checked ~ .first{
+    margin-left: 0;
+}
+#radio2:aria-checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:aria-checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 460px;
+}
+.buttonGo-manual{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: -290px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ButtonBack{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.vazioButtonH{
+    height: 40px;
+    width: 5px;
+    border-radius: 10px;
+    background-color: var(--verde);
+}
+.iconButtomSlideRight:hover{
+    background-color: var(--verdeE);
+}
+.iconButtomSlide:hover{
+    background-color: var(--verdeE);
+}
+.iconButtomSlide{
+    height: 40px;
+    width: 44px;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+}
+.iconButtomSlideRight{
+    border-radius: 0px 10px 10px 0px;
+    height: 40px;
+    width: 44px;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorSlideIcom{
+    color: var(--verdeC);
+    font-size: 1.5rem;
+}
+.navigation-auto div{
+    border: 2px solid var(--verde);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: var(--verde);
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: var(--verde);
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: var(--verde);
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: var(--verde);
+}
+/* ===================slider ====================*/
+@media (max-width: 550px){
+    .slider{
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+    }
+    .slides{
+        width: 500%;
+        height: 400px;
+        display: flex;
+    }
+    .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 360px;
+    }
+    .buttonGo-manual{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: -250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ButtonBack{
+        width: 50px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .vazioButtonH{
+        height: 40px;
+        width: 5px;
+        border-radius: 10px;
+        background-color: var(--verde);
+    }
+    .imgContentVida{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        box-sizing: border-box;
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}

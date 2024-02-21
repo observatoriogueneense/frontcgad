@@ -1,0 +1,41 @@
+.linkAuthSenha{
+    text-transform: none;
+    list-style: none;
+    color: black;
+    font-weight: 600;
+}
+.linkAuthSenha:hover{
+    font-weight: 500;
+    color: #fff;
+    transition: 0.3s;
+}
+.fullContentAuthSenha{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.textInstrution{
+    text-align: center;
+}
+.paddinBuuttAuth{
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 2px 20px;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #fff; */
+    cursor: pointer;
+}
+.marinAuthSenha{
+    padding: 0px 10px;
+}
+.oit{
+    width: 50%;
+}

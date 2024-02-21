@@ -1,0 +1,505 @@
+.Home{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+}
+.showwNew{
+    width: 100%;
+    display: none;
+}
+.showwNeww{
+    width: 100%;
+    display: flex;
+}
+.imagemContent{
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backImgContent{
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../../../public/droga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backImgContentBissau{
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../../../public/bissau1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorBack{
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(to right,var(--verde), var(--verdeC)); */
+    /* opacity: 0.0; */
+}
+.colorBackBissau{
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left,var(--verde), transparent);
+    /* background-image: linear-gradient(to right,var(--verde), transparent); */
+    /* opacity: 0.0; */
+}
+.textDescOGAD{
+    margin-left: 10px;
+}
+.ogadText, .textDescOGAD{
+    color: #fff;
+    margin: 0px;
+}
+.ogadText{
+    font-size: 8.7rem;
+}
+.textDescOGAD{
+    font-size: 1.2rem;
+}
+.textBack{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: var(--verde); */
+    width: 80%;
+    border-radius: 50px;
+    padding: 30px;
+}
+.textBackBissau{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: var(--verde); */
+    width: 80%;
+    border-radius: 50px;
+    padding: 30px;
+}
+.leftBissau{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: var(--verde); */
+    width: 35%;
+    border-radius: 50px;
+    padding: 30px;
+}
+.rightBissau{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.fulltextIntrudation{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.textContentIntrodaction{
+    width: 70%;
+    margin: 0px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textContentIntrodactionFull{
+    width: 70%;
+    margin: 0px;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.intudaction{
+    color: var(--verdeE);
+    font-size: 1.6rem;
+    text-align: justify;
+}
+.cardObjectivos{
+    width: 300px;
+}
+.imgCardObj{
+    width: 100%;
+}
+.imagemCardObj{
+    width: 100%;
+}
+.imgCardObj{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px #999;
+}
+.textCArdObj{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.textCArdObj{
+    width: 100%;
+}
+.titleCardObj{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.pCardObj{
+    width: 100%;
+    margin-top: 10px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.leftButtonBissau{
+    width: 190px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size:1rem;
+    background-color: var(--verdeE);
+    margin-top: 10px;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0.5px 0.5px 3px 0.5px var(--verde);
+    cursor: pointer;
+}
+.leftButtonBissau:hover{
+    box-shadow: 0.5px 0.5px 3px 0.5px #ddd;
+    transition: 0.3s;
+}
+.buttonHistory{
+    width: 190px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size:1rem;
+    background-color: var(--verdeE);
+    margin-top: 10px;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0.5px 0.5px 3px 0.5px var(--verde);
+    cursor: pointer;
+}
+.buttonHistory:hover{
+    box-shadow: 0.5px 0.5px 3px 0.5px #999;
+    transition: 0.3s;
+}
+.cicleColor{
+    color: #fff;
+    margin-left: 15px;
+}
+.textBissauLeft{
+    color: #fff;
+    font-size: 1rem;
+}
+.centerBissau{
+    width: 15%;
+}
+.fullHistory{
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentHistory{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imageHistory{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.textHistor{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.imgHistory{
+    width: 100%;
+    height: 350px;
+    object-fit:fill;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0.5px 0.5px 3px 0.5px #ddd;
+}
+.titleHistory{
+    font-size: 2rem;
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.textPHistory{
+    font-size: 1.1rem;
+    margin: 10px 0px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+.imgProjectSecundBove{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+@media (max-width: 1340px){
+    .cardObjectivos{
+        width: 250px;
+    }
+    .imgCardObj{
+        height: 250px;
+    }
+    .titleCardObj{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 1100px){
+    .cardObjectivos{
+        width: 200px;
+    }
+    .imgCardObj{
+        height: 200px;
+    }
+    .pCardObj{
+        text-align:left;
+    }
+}
+@media (max-width: 1000px){
+    .ogadText{
+        font-size: 8rem;
+    }
+    .textDescOGAD{
+        font-size: 1.1rem;
+    }
+    .textBissauLeft{
+        font-size: 0.8rem;
+    }
+    .titleHistory{
+        font-size: 1.5rem;
+    }
+    .textPHistory{
+        font-size: 0.8rem;
+        -webkit-line-clamp: 4;
+    }
+}
+@media (max-width: 900px){
+    .cardObjectivos{
+        width: 280px;
+    }
+    .imgCardObj{
+        height: 280px;
+    }
+    .pCardObj{
+        text-align:justify;
+    }
+    .intudaction{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 830px){
+    .cardObjectivos{
+        width: 230px;
+    }
+    .imgCardObj{
+        height: 230px;
+    }
+    .pCardObj{
+        text-align:justify;
+    }
+}
+@media (max-width: 690px){
+    .cardObjectivos{
+        width: 190px;
+    }
+    .imgCardObj{
+        height: 190px;
+    }
+    .pCardObj{
+        text-align: start;
+    }
+    .ogadText{
+        font-size: 5rem;
+    }
+    .textDescOGAD{
+        font-size: 1rem;
+    }
+    .titleHistory{
+        font-size: 1.1rem;
+    }
+    .textPHistory{
+        font-size: 0.8rem;
+        -webkit-line-clamp: 3;
+    }
+}
+@media (max-width: 580px){
+    .textBack{
+        width: 93%;
+    }
+    .textContentIntrodaction{
+        width: 93%;
+    }
+    .textContentIntrodactionFull{
+        width: 88%;
+    }
+    .textBackBissau{
+        width: 93%;
+        padding: 0px;
+    }
+    .contentHistory{
+        width: 93%;
+    }
+    .leftBissau{
+        padding: 0px;
+    }
+    .cardObjectivos{
+        width: 240px;
+    }
+    .imgCardObj{
+        height: 240px;
+    }
+    .pCardObj{
+        text-align:justify;
+    }
+}
+@media (max-width: 580px){
+    .cardObjectivos{
+        width: 210px;
+    }
+    .imgCardObj{
+        height: 210px;
+    }
+    .pCardObj{
+        text-align:justify;
+    }
+}
+@media (max-width: 550px){
+    .textContentIntrodaction{
+        /* margin-top: -70px; */
+        padding: 0px  0px;
+    }
+}
+@media (max-width: 500px){
+    .cardObjectivos{
+        width: 190px;
+    }
+    .imgCardObj{
+        height: 190px;
+    }
+    .pCardObj{
+        text-align:justify;
+    }
+    .intudaction{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 480px){
+    .leftButtonBissau{
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 5px;
+        font-size:0.8rem;
+    }
+    .textBissauLeft{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .ogadText{
+        font-size: 4rem;
+    }
+    .textDescOGAD{
+        font-size: 0.8rem;
+    }
+    .buttonHistory{
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 5px;
+        font-size:0.8rem;
+    }
+    .titleHistory{
+        font-size: 1rem;
+        margin: 3px 0px;
+    }
+    .textPHistory{
+        margin: 3px 0px;
+    }
+}
+@media (max-width: 450px){
+    .intudaction{
+        font-size: 0.7;
+    }
+    .cardObjectivos{
+        width: 350px;
+    }
+    .imgCardObj{
+        height: 350px;
+    }
+    .pCardObj{
+        text-align:justify;
+    }
+    .textContentIntrodactionFull{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cardObjectivos{
+        margin: 15px 0px;
+    }
+}

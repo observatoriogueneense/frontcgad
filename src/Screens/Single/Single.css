@@ -1,0 +1,162 @@
+.fullContSingle{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9f9f95a;
+}
+.headerSingle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.oitentSingleHeader{
+    width: 70%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    border-bottom: 1px solid #f4f6f6;
+}
+.iconHomeSingle{
+    width: 270px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.iconSizz{
+    font-size: 1.3rem;
+    color: var(--verdeE);
+}
+.iconSizzt{
+    font-size: 1.1rem;
+    color: var(--verdeE);
+}
+.rowRightSingle{
+    font-size: 1.1rem;
+    color: #ddd;
+    padding: 0px 5px;
+}
+.textHomeSingle{
+    text-align: start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.oitentSingleHeaderText{
+    width: 70%;
+    padding: 30px 0px;
+    display: flex;justify-content: center;
+    align-items: center;
+}
+.textHeroSingle{
+    font-size: 1.8rem;
+    color: var(--verdeE);
+    font-weight: 600;
+}
+.oitentSingleHeaderTextSocial{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-bottom: 1px dotted #ddd;
+    flex-wrap: wrap;
+}
+.porSocial{
+    border: none;
+    border-bottom: 1px dotted #ddd;
+    padding: 10px 0px;
+}
+.iName{
+    color: var(--verdeE);
+}
+.iName:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dataSocial{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.clockSize{
+    color: var(--verdeE);
+    font-size: 1.3rem;
+}
+.socialSingle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+.fontSizeLink{
+    font-size: 1.4rem;
+    color: #666;
+}
+.fontSizeLink:hover{
+    color: var(--verdeE);
+    transition: 0.3s;
+}
+.oitentSingleHeaderTextSocialimg{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.singleImg{
+    max-width: 100%;
+    max-height: 500px;
+}
+.oitentSingleHeaderTextSocialimgT{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.textSingleText{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 35px;
+    padding: 15px 0px;
+
+}
+.iUpdate{
+    width: 220px;
+}
+
+@media (max-width: 900px){
+    .textSingleText{
+        width: 100%;
+    }
+}
+@media (max-width: 500px){
+    .dataSocial{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media (max-width: 457px){
+    .socialSingle{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,56 @@
+.Footer{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--verdeE);
+}
+.contenFooter{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.textFooter{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.DevName{
+    color: var(--amarelo);
+    cursor: pointer;
+}
+.DevName:hover{
+    color: var(--amarelo);
+    background-color: var(--verde);
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+.VoltarArrow{
+    color: #fff;
+    font-size: 2rem;
+}
+.buttonFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.VoltarArrow:hover{
+    color: #F7FF93;
+    transition: 0.3s;
+}
+@media (max-width: 500px){
+    .contenFooter{
+        width: 93%;
+    }
+    .VoltarArrow{
+        font-size: 1rem;
+    }
+    .textFooter{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,317 @@
+.fullAtualContent{
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd7d;
+}
+
+.cardProjectsSecundAtual{
+    margin: 0px 0px;
+    border-radius: 0px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: #ddd;
+}
+#buttomCardSecundAtual{
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.oitentAtual{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.NoticiaContent{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.localContent{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.cardAtual{
+    margin: 0px 0px 30px 0px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ddd;
+    padding: 0px 0px 15px 0px;
+    box-shadow: 1px 1px 7px 2px #999;
+}
+.imgAtual{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
+.imagemAtual{
+    display: block;
+    position: relative;
+}
+.imgLogoAtual{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+.allTextAtual{
+    width: 90%;
+    background-color: #fff;
+    padding: 0px 15px;
+}
+.titleAtual{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 0px;
+    color: var(--verdeE);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.regiaoAtual{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+    color: var(--amarelo);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.iconAtual{
+    width: 100%;
+    padding: 15px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconBuGo{
+    color: #fff;
+    padding: 0px 5px;
+}
+.buttonIconAtual{
+    width: 130px;
+    height: 45px;
+    background-color: var(--verdeE);
+    color: #fff;
+    border: none;
+    display: flex;align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 7px 2px var(--verde);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.textVizible{
+    width: 100%;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.allTextVizible{
+    width: 100%;
+    text-align: justify;
+}
+.associacaoFour{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.conTentCarAss{
+    width: 100%;
+    background-color: var(--verdeE);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.conTentCarAssFour{
+    width: 100%;
+    background-color: var(--verdeE);
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.contentAssociacaoCard{
+    width: 90%;
+    padding: 20px 10px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.TitleAssociacao{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    color: var(--verdeE);
+    padding: 5px 0px;
+}
+.localAssociacao,.celularAssociacao, .emailAssociacao{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+}
+.logoimgAssociacao{
+    width: 100px;
+    border-radius: 50%;
+}
+@media (max-width: 1230px){
+    .NoticiaContent{
+        width: 50%;
+    }
+    .cardAtual{
+        width: 500px;
+    }
+    .imgAtual{
+        width: 500px;
+    }
+    .localContent{
+        width: 300px;
+    }
+    .TitleAssociacao{
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 1040px){
+    .oitentAtual{
+        width: 90%;
+    }
+}
+@media (max-width: 900px){
+    .oitentAtual{
+        width: 90%;
+    }
+    .NoticiaContent{
+        width: 40%;
+    }
+    .cardAtual{
+        width: 400px;
+    }
+    .imgAtual{
+        width: 400px;
+    }
+    .localContent{
+        width: 250px;
+    }
+    .TitleAssociacao{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 740px){
+    .oitentAtual{
+        width: 95%;
+    }
+}
+@media (max-width: 700px){
+    .oitentAtual{
+        width: 90%;
+    }
+    .NoticiaContent{
+        width: 30%;
+    }
+    .cardAtual{
+        width: 300px;
+    }
+    .imgAtual{
+        width: 300px;
+    }
+    .TitleAssociacao{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 640px){
+    .fullAtualContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .oitentAtual{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    .NoticiaContent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .cardAtual{
+        width: 500px;
+    }
+    .imgAtual{
+        width: 500px;
+    }
+    .localContent{
+        width: 350px;
+    }
+    .TitleAssociacao{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 530px){
+    .cardAtual{
+        width: 400px;
+    }
+    .imgAtual{
+        width: 400px;
+    }
+    .localContent{
+        width: 350px;
+    }
+    .TitleAssociacao{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 430px){
+    .cardAtual{
+        width: 350px;
+    }
+    .imgAtual{
+        width: 350px;
+    }
+    .localContent{
+        width: 350px;
+    }
+    .TitleAssociacao{
+        font-size: 1.5rem;
+    }
+}

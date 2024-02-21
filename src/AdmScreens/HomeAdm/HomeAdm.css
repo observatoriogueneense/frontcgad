@@ -1,0 +1,102 @@
+.colorSixe{
+    color: var(--amarelo);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.colorSizerLixo{
+    color: var(--vermelho);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.iconColorAddImg{
+    color: var(--amarelo);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.iconEditImg{
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.imageProjectSecurd{
+    position: relative;
+}
+.editInputObject{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+.redeDiv{
+    height: 50px;
+    width: 100%;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.dfConteHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputHeaderUpdate{
+    width: 80%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    border: 0.5px solid #666;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 2px 1.5px #ddd;
+}
+.imageHistory{
+    position: relative;
+}
+.newPositionIcon{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 5px;
+    background-color: var(--verde);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+.newPositionIcon:hover{
+    transform: scale(1);
+    transition: 0.3s;
+}
+.newPositionIconyu{
+    padding: 5px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.imgUserPhotovay{
+    display: none;
+}
+.displayNoneImguu{
+    display: none;
+}
+.contenteButtonSubmit{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0px;
+}
+.sendOrSubmit{
+    padding: 5px 15px;
+    border: none;
+    color: #fff;
+    background-color: var(--verde);
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}

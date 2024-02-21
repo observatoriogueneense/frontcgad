@@ -1,0 +1,9 @@
+#CursorLogoAdm{
+    cursor:pointer;
+    transform: scale(0.90);
+}
+#CursorLogoAdm:hover{
+    cursor:pointer;
+    transform: scale(1);
+    transition: 0.3s;
+}

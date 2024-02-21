@@ -1,0 +1,306 @@
+.Contato{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.contactosContentPage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddddddac;
+    padding: 30px 0px;
+}
+.fullRed{
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.telContent{
+    width: 40%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.ItemTelRed{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.descItemTelRed{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 0px;
+}
+.sizeRedIcon{
+    font-size: 3rem;
+    padding: 0px 10px;
+    color: var(--verdeE);
+}
+.TitleRed{
+    font-size: 1.5rem;
+    color: var(--verdeE);
+}
+.TitleTelItemRed{
+    font-size: 1.2rem;
+    color: var(--verdeE);
+}
+.RedContent{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.midiasSociasRed{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10px;
+}
+.tracoRed{
+    width: 10%;
+    height: 1px;
+    border: none;
+    border-bottom: 1px dashed #666;
+}
+.TitleFacebookRed{
+    font-size: 1.5rem;
+    color: var(--verdeE);
+}
+.iconsocRed{
+    font-size: 2rem;
+    background-color: var(--verdeE);
+    color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+}
+.divTextRed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 19px 0px;
+    font-size: 1rem;
+    text-align: justify;
+    color: #666;
+}
+.formContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.oitenteForm{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.titleForm{
+    font-size: 3rem;
+    color: var(--verdeE);
+    padding: 10px 0px;
+}
+.nomeForm{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.emailForm{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.labelContent{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+}
+.NegritoName{
+    font-weight: 600;
+}
+.xege{
+    color: var(--vermelho);
+}
+.NomeFormItem{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 10px 0.1px #ddd;
+    padding: 5px 0px;
+}
+.messageFormItem{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 10px 0.1px #ddd;
+    padding: 5px 0px;
+    max-width: 100%;
+    max-height: 200px;
+}
+.SeletFormItem{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 10px 0.1px #ddd;
+    padding: 15px 0px;
+}
+.EmailFormContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selectFormContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.messagemForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.buttonFormMessage{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 0px;
+}
+.buttonMSM{
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--verdeE);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px 2px var(--verde);
+}
+#disableCursor{
+    cursor: not-allowed;
+}
+@media (max-width: 1350px){
+    .iconsocRed{
+        font-size: 2rem;
+        background-color: var(--verdeE);
+        color: #ddd;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 1100px){
+    .iconsocRed{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 940px){
+    .fullRed{
+        width: 90%;
+    }
+    .oitenteForm{
+        width: 80%;
+    }
+}
+@media (max-width: 720px){
+    .RedContent{
+        width: 50%;
+    }
+    .titleForm{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 600px){
+    .iconsocRed{
+        font-size: 1.1rem;
+        background-color: var(--verdeE);
+        color: #ddd;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+@media (max-width: 500px){
+    .fullRed{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .RedContent{
+        width: 80%;
+        align-items: center;
+    }
+    .midiasSociasRed{
+        width: 100%;
+        display: flex;
+    }
+    .telContent{
+        width: 80%;
+        padding: 20px 0px;
+    }
+    .TitleFacebookRed{
+        width: 100%;
+    }
+}
+@media (max-width: 470px){
+    .oitenteForm{
+        width: 90%;
+    }
+    .titleForm{
+        font-size: 1.5;
+    }
+}
+@media (max-width: 420px){
+    .titleForm{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 400px){
+    .titleForm{
+        font-size: 1.5rem;
+    }
+    #newSizeTitle{
+        font-size: 1.4rem;
+    }
+    #newSizeP{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,82 @@
+.butbtnNewwTU{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--amarelo);
+    color: #414813;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+}
+.CadastrarNovoTemaNew{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--amarelo);
+    color: #414813;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: none;
+    padding: 2px;
+}
+.divNewLateralButtt{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.morStyleForBacket{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--vermelho);
+    margin: 15px;
+    cursor: pointer;
+    background-color: rgb(243, 192, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.regiaoAtualnew{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.Privado{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--amarelo);
+    cursor: pointer;
+}
+.Publico{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--verde);
+    cursor: pointer;
+}
+.statusIcon{
+    margin: 0px 5px;
+    border-radius: 50%;
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.iStatus{
+    margin-left: 5px;
+}

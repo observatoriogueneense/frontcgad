@@ -1,0 +1,7 @@
+.butbtnNewwTUContact{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px 2px var(--verdeC);
+    background-color: var(--verde);
+}
