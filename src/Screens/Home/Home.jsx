@@ -34,15 +34,16 @@ var slides = [
 }
 ];
 export default function Home() {
-    const [pro, setPro] = useState()
     const [show, setShow] = useState(" ")
     const [header, setHeader] = useState(" ")
     const [text, setText] = useState(" ")
     const [newStyle, setNewStyle] = useState("showwNew")
     const [resp, setResp] = useState({})
     const [banner, setBanner] = useState({})
+    const [mi, setMi] = useState({})
+    const [vi, setVi] = useState({})
+    const [va, setVa] = useState({})
 
-  
   useEffect(()=>{
     const getData = async()=>{
       try {
@@ -82,7 +83,9 @@ export default function Home() {
                   obj:data[0].valor
                 }
           ]
-          setPro(BigRes)
+          setMi(BigRes[0])
+          setVi(BigRes[1])
+          setVa(BigRes[2])
 
           const newRes = await api.get("/fundo")
           setBanner(newRes.data[0])
@@ -128,27 +131,65 @@ export default function Home() {
       </div>
       <div className="fullProjectsSecund">
             <div className="oitentaProjectsSecund">
-                {pro?.map((d)=>(
-                    <div className="cardProjectsSecund" key={d.id}>
+                {/* 00000000000000000000000000000000000000000000 */}
+                <div className="cardProjectsSecund" key={mi.id} id='missao'>
                         <div className="imageProjectSecurd">
-                            <img src={d.img} alt="" className="imgProjectSecund" />
+                            <img src={mi.img} alt="" className="imgProjectSecund" />
                         </div>
                         <div className="textProjectsSecund">
-                            <div className="TitleProjectsSecund">{d.title}</div>
+                            <div className="TitleProjectsSecund">{mi.title}</div>
                             <div className="descriptionProjectsSecund"></div>
                         </div>
                         <div className="buttonProjectsSecund">
-                            <i className="fa-solid fa-circle-arrow-down arrowSizee" onClick={()=>verify(d.id)}></i>
+                            <i className="fa-solid fa-circle-arrow-down arrowSizee" onClick={()=>verify(mi.id)}></i>
                         </div>
-                        {show === d.id && (
-                            <div id="buttomCardSecund" className={d.id}>
+                        {show === mi.id && (
+                            <div id="buttomCardSecund" className={mi.id}>
                                 <div className="org"></div>
-                                <div className="ObjCard"><b> </b>{d.obj}</div>
+                                <div className="ObjCard"><b> </b>{mi.obj}</div>
                                 {/* <div className="ObjCard"><b> </b>{d.slg}</div> */}
                             </div>
                         )}
-                    </div>   
-                ))}
+                    </div> 
+                <div className="cardProjectsSecund" key={vi.id} id='visao'>
+                        <div className="imageProjectSecurd">
+                            <img src={vi.img} alt="" className="imgProjectSecund" />
+                        </div>
+                        <div className="textProjectsSecund">
+                            <div className="TitleProjectsSecund">{vi.title}</div>
+                            <div className="descriptionProjectsSecund"></div>
+                        </div>
+                        <div className="buttonProjectsSecund">
+                            <i className="fa-solid fa-circle-arrow-down arrowSizee" onClick={()=>verify(vi.id)}></i>
+                        </div>
+                        {show === vi.id && (
+                            <div id="buttomCardSecund" className={vi.id}>
+                                <div className="org"></div>
+                                <div className="ObjCard"><b> </b>{vi.obj}</div>
+                                {/* <div className="ObjCard"><b> </b>{d.slg}</div> */}
+                            </div>
+                        )}
+                    </div> 
+                <div className="cardProjectsSecund" key={va.id} id='valores'>
+                        <div className="imageProjectSecurd">
+                            <img src={va.img} alt="" className="imgProjectSecund" />
+                        </div>
+                        <div className="textProjectsSecund">
+                            <div className="TitleProjectsSecund">{va.title}</div>
+                            <div className="descriptionProjectsSecund"></div>
+                        </div>
+                        <div className="buttonProjectsSecund">
+                            <i className="fa-solid fa-circle-arrow-down arrowSizee" onClick={()=>verify(va.id)}></i>
+                        </div>
+                        {show === va.id && (
+                            <div id="buttomCardSecund" className={va.id}>
+                                <div className="org"></div>
+                                <div className="ObjCard"><b> </b>{va.obj}</div>
+                                {/* <div className="ObjCard"><b> </b>{d.slg}</div> */}
+                            </div>
+                        )}
+                    </div> 
+                {/* 00000000000000000000000000000000000000000000 */}
             </div>
         </div>
 
@@ -171,7 +212,7 @@ export default function Home() {
           {resp.img &&(<img src={resp.img} alt="" className="imgProjectSecundBove" />)}
         </div>
           <div className="textHistor">
-            <div className="titleHistory">História do CGAD</div>
+            <div className="titleHistory" id='historia'>História do CGAD</div>
             <p className="textPHistory">
               {text}
             </p>

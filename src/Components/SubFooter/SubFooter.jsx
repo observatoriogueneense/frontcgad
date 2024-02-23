@@ -21,9 +21,9 @@ export default function SubFooter(data) {
   const Historia = ()=>{
     window.location.replace("/sobre");
   }
-  const Home = ()=>{
-    window.location.replace("/");
-  }
+  // const Home = ()=>{
+  //   window.location.replace("/");
+  // }
   return (
     <div className='SubFooter'>
       <div className="subFooterContent">
@@ -34,10 +34,10 @@ export default function SubFooter(data) {
             <div className="quem">
                 <div className="quemTitle">Quem Somos Nós</div>
                 <div className="quemItemContem">
-                    <p className="itemQuem" onClick={Historia}>História do CGAD</p>
-                    <p className="itemQuem" onClick={Home}>Missão</p>
-                    <p className="itemQuem" onClick={Home}>Visão</p>
-                    <p className="itemQuem" onClick={Home}>Valores</p>
+                    <p className="itemQuem linkMissao" onClick={Historia}>História do CGAD</p>
+                    <a href="#missao" className="itemQuem linkMissao">Missão</a>
+                    <a href="#visao" className="itemQuem linkMissao">Visão</a>
+                    <a href="#valores" className="itemQuem linkMissao">Valores</a>
                 </div>
             </div>
             <div className="quem">

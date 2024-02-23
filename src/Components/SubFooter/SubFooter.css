@@ -49,6 +49,12 @@
     color: #f0fbf9;
     transition: 0.3s;
 }
+.linkMissao{
+    width: 100%;
+    display: block;
+    color: black;
+    margin: 10px 0px;
+}
 @media (max-width: 1200px){
     .imgSubFooter{
         height: 200px;

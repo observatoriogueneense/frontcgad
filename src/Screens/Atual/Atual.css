@@ -181,8 +181,9 @@
 .localAssociacao,.celularAssociacao, .emailAssociacao{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    gap: 15px;
     padding: 5px 0px;
 }
 .logoimgAssociacao{
