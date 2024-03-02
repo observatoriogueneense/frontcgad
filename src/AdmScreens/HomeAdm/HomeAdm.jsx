@@ -39,6 +39,7 @@ export default function HomeAdm() {
     const [pro, setPro] = useState()
     const [UserAdm, setUserAdm] = useState(false)
     const [header,  setHeader] = useState()
+    const [getHeader,  setGetHeader] = useState(null)
     const [show, setShow] = useState(" ")
     const [missao, setMissao] = useState(null)
     const [visao, setVisao] = useState(null)
@@ -124,11 +125,9 @@ export default function HomeAdm() {
             const description = Date.now() + iValor.name;
             resultVa = await postImage({image: iValor, description})
         }
-        console.log([missao, valor, visao])
-        console.log(pro)
         
         const ObjectUpdate = {
-            header:header,
+            header:getHeader ? getHeader : header,
             missao:missao ? missao : pro[0].obj,
             visao:visao ? visao : pro[1].obj,
             valor:valor ? valor : pro[2].obj,
@@ -136,9 +135,9 @@ export default function HomeAdm() {
             ivisao:iVisao ? resultVi : pro[1].img,
             ivalor:iValor ? resultVa : pro[2].img,
         }
-        console.log(ObjectUpdate)
+
         const keyId='64ed8bd8c6bd3e465a738fd0'
-        const NewRes = await api.put("/home/"+keyId, ObjectUpdate)
+        await api.put("/home/"+keyId, ObjectUpdate)
 
         Swal.fire({
             position: 'center',
@@ -148,7 +147,8 @@ export default function HomeAdm() {
             timer: 1500
           })
 
-        console.log(NewRes)
+          window.location.reload()
+
     }
 
     const getData = async()=>{
@@ -184,7 +184,7 @@ export default function HomeAdm() {
             // setValor(data[0].valor)
 
         } catch (error) {
-            console.log(error)
+            alert(error)
         }
     }
     const getUserAdm = async()=>{
@@ -268,7 +268,7 @@ const SalvarImagem = async()=>{
           <h1 className="intudaction">
             {header}
           </h1>
-        <input type="text" className="inputHeaderUpdate" onChange={(e)=>setHeader(e.target.value)} />
+        <input type="text" className="inputHeaderUpdate" onChange={(e)=>setGetHeader(e.target.value)} />
         </div>
       </div>
       <div className="fullProjectsSecund">

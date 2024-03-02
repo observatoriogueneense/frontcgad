@@ -28,6 +28,8 @@
     color: #fff;
     margin: 0px;
     font-size: 1.4rem;
+    width: 100%;
+    text-align: justify;
 }
 .pSvgContent{
     width: 50%;

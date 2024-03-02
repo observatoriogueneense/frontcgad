@@ -28,6 +28,7 @@ export default function Login() {
         
         try {
             const {data} = await api.post("/adm/login", {setu, sets})
+            console.log(data)
             setAdata(data)
             if(data.token){
                 const codigo = aleCod(100000, 1000000)
