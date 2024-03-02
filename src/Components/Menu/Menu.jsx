@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import './Menu.css'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import api from '../../AdmScreens/api'
 
 export default function Menu({select, data}) {
   const [selectItem, setSelectItem] = useState(select)
   const [Datat, setDatat] = useState({})
-
+  const location = useLocation();
+  var path = location.pathname.split("/")[2]
+  
   useEffect(()=>{
     const getData= async()=>{
       try {
@@ -22,9 +24,19 @@ export default function Menu({select, data}) {
     <div className='Menu' id='headertop'>
       <div className="fullMenu">
         <div className="logoImg">
-        {data ? 
-            <img src={Datat.img} className='logoClass' alt="cgad" /> : <img src={Datat.img} className='logoClass' alt="" />
-            }
+          {path ?
+              (<img src="../cgadt.png" className='logoClass' alt="cgad" />)
+              :
+              (
+              <>
+                {data ? 
+                    <img src={Datat.img} className='logoClass' alt="cgad" /> 
+                    : 
+                    <img src={Datat.img} className='logoClass' alt="" />
+                }
+              </>
+              )
+          }
             <div className="textTitle">
                 <p className="title">{Datat.text1}</p>
                 <p className="title">{Datat.text2}</p>
