@@ -15,6 +15,7 @@
 .contDivPencepaly{
   position: relative;
   cursor: pointer;
+  width: 100%;
 }
 #contentImg{
   width: 100%;

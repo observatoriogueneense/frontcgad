@@ -7,10 +7,12 @@
 .showwNew{
     width: 100%;
     display: none;
+    position: relative;
 }
 .showwNeww{
     width: 100%;
     display: flex;
+    position: relative;
 }
 .imagemContent{
     width: 100%;
