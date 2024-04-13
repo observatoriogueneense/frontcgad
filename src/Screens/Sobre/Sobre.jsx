@@ -67,7 +67,7 @@ export default function Sobre() {
             <div className="oitentaMembros">
                 <div className="headerMembros">
                     <div className="TitleMembros">Membros Fundadores</div>
-                    <p className="pMembros">Os Combatentes Que Iniciaram o Projeto</p>
+                    <p className="pMembros"></p>
                 </div>
                 <div className="itemMembros2">
                     
@@ -98,7 +98,7 @@ export default function Sobre() {
             <div className="oitentaMembros">
                 <div className="headerMembros">
                     <div className="TitleMembros">Colaboradores</div>
-                    <p className="pMembros">Os Combatentes Que Iniciaram o Projeto</p>
+                    <p className="pMembros"></p>
                 </div>
                 <div className="itemMembros2">
                     

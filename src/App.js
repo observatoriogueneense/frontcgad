@@ -30,8 +30,8 @@ function App() {
             <Route path="/" element={<Home /> } exact />
             <Route path="/sobre" element={<Sobre /> } exact />
             <Route path="/temas" element={<Projeto /> } exact />
-            <Route path="/atualidade" element={<Atual /> } exact />
-            <Route path="/atualidade/:id" element={<Single /> } exact />
+            <Route path="/noticias" element={<Atual /> } exact />
+            <Route path="/noticias/:id" element={<Single /> } exact />
             <Route path="/contatos" element={<Contato /> } exact />
             <Route path="/parcerias" element={<Colaboradores /> } exact />
             <Route path="/homeadm" element={user ? <HomeAdm /> : <Login /> } exact />

@@ -18,7 +18,7 @@ export default function Atual() {
     
 
     const getSlide = (data)=>{
-        window.location.replace(`/atualidade/${data}`);
+        window.location.replace(`/noticias/${data}`);
       }
     
     useEffect(()=>{

@@ -39,7 +39,7 @@ class SlideShow extends Component {
     // var ArrayLinks = this.props.linkId
     // console.log(slides)
     const getSlide = (data)=>{
-      window.location.replace(`/atualidade/${slides[data]._id}`);
+      window.location.replace(`/noticias/${slides[data]._id}`);
     }
 
     return (
